@@ -18,36 +18,33 @@ const Home = () => {
         <NavbarContent>
           <NavbarBrand>
             <h1 className="text-violet-800 font-semibold text-2xl select-none">
-              Avocado
+              GhostBlade
             </h1>
           </NavbarBrand>
         </NavbarContent>
         <NavbarContent>
-          <NavbarItem className="hover:text-violet-700 transition-colors hover:underline cursor-pointer">
+          <NavbarItem className="font-semibold hover:text-violet-700 transition-colors hover:underline cursor-pointer">
             Home
           </NavbarItem>
           <NavbarItem
             as={Link}
             href="/profile"
-            className="hover:text-violet-700 transition-colors hover:underline cursor-pointer"
+            className="font-semibold hover:text-violet-700 transition-colors hover:underline cursor-pointer"
           >
             Profile
           </NavbarItem>
-          <NavbarItem className="hover:text-violet-700 transition-colors hover:underline cursor-pointer">
+          <NavbarItem className="font-semibold hover:text-violet-700 transition-colors hover:underline cursor-pointer">
             Content
           </NavbarItem>
-          <NavbarItem className="hover:text-violet-700 transition-colors hover:underline cursor-pointer">
+          <NavbarItem className="font-semibold hover:text-violet-700 transition-colors hover:underline cursor-pointer">
             About Us
           </NavbarItem>
-          <NavbarItem className="hover:text-violet-700 transition-colors hover:underline cursor-pointer">
+          <NavbarItem className="font-semibold hover:text-violet-700 transition-colors hover:underline cursor-pointer">
             Contacts
           </NavbarItem>
         </NavbarContent>
       </Navbar>
       <HeroSection></HeroSection>
-      <Button className="bg-emerald-500 text-blue-800 rounded-none">
-        Click me
-      </Button>
     </main>
   );
 };
