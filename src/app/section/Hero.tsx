@@ -3,15 +3,15 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <main className="w-full min-h-screen bg-violet-200 flex flex-row justify-center items-center">
+    <main className="w-full min-h-screen bg-orange-500 flex flex-row justify-center items-center">
       <div className="flex flex-row items-center gap-16">
-        <div className="text-center flex flex-col gap-12">
-          <div className="">
+        <div className="text-center flex flex-col gap-10">
+          <div className="flex flex-col gap-1">
             <h1 className="text-6xl font-semibold">
               Hi, I&apos;m Muhammad Razza!
             </h1>
-            <h2 className="text-4xl font-semibold text-violet-600">
-              I&apos;m a Gamer
+            <h2 className="text-4xl font-semibold">
+              Part-time Gamer, Sometimes AI Engineer, Full-time Sleeper
             </h2>
           </div>
           <div>
@@ -27,7 +27,7 @@ const HeroSection = () => {
         </div>
         <div className="w-96">
           <Image
-            src="https://storage.googleapis.com/al_fukad/this-guy.webp"
+            src="./static/profilePic.png"
             className="object-cover"
             alt="profile"
             radius="full"
