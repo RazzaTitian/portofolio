@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Muhammad Razza | Elden Lord",
+  title: "Razza's Portofolio",
   description: "This is a website.",
 };
 
